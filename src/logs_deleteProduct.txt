@@ -1,0 +1,48 @@
+2025-05-22 20:03:20,631 - INFO - Initializing WebDriver and test setup
+System architecture: 64bit
+Using driver from: C:\Users\lmaputi\python\ManualDriver\chromedriver.exe
+
+DevTools listening on ws://127.0.0.1:7803/devtools/browser/f2d58bd3-f3fc-47e4-9129-7c50ec28b18b
+2025-05-22 20:03:22,511 - INFO - Initialized screenshots lists.
+Feature: Deleting product to the cart # environments/test/feature/RemoveProductToCart.feature:1
+2025-05-22 20:03:22,515 - INFO - Starting scenario: Successful login with valid credentials
+
+  Scenario: Successful login with valid credentials  # environments/test/feature/RemoveProductToCart.feature:3
+    Given I am on the Swag Labs login page           # environments/test/steps/LoginSteps.py:20
+    When I enter valid credentials                   # environments/test/steps/LoginSteps.py:33
+2025-05-22 20:03:28,007 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 20:03:28,007 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Email Input - Username Input_20250522_200327.png
+2025-05-22 20:03:28,008 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Email Input - Username Input_20250522_200327.png
+    And I submit the login form                      # environments/test/steps/LoginSteps.py:43
+2025-05-22 20:03:28,240 - INFO - Finished scenario: Successful login with valid credentials
+test only for the screenshot
+2025-05-22 20:03:28,241 - INFO - Starting scenario: Deleting product to the cart
+
+  Scenario: Deleting product to the cart                         # environments/test/feature/RemoveProductToCart.feature:8
+    Given I am on the Swag Labs Dashboard                        # environments/test/steps/SwagLabSteps.py:11
+    When I delete a product to cart                              # environments/test/steps/SwagLabSteps.py:26
+2025-05-22 20:03:28,766 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 20:03:28,768 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product List - Product List_20250522_200328.png
+2025-05-22 20:03:28,770 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product List - Product List_20250522_200328.png
+2025-05-22 20:03:29,101 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 20:03:29,101 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+2025-05-22 20:03:29,103 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+    Then I verify if product is successfully deleted on the cart # environments/test/steps/SwagLabSteps.py:31
+2025-05-22 20:03:29,405 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 20:03:29,406 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+2025-05-22 20:03:29,407 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+2025-05-22 20:03:29,408 - INFO - Finished scenario: Deleting product to the cart
+test only for the screenshot
+
+2025-05-22 20:03:29,409 - INFO - Test suite finished
+2025-05-22 20:03:29,437 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Email Input - Username Input_20250522_200327.png
+2025-05-22 20:03:29,439 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Email Input - Username Input_20250522_200327.png
+2025-05-22 20:03:29,441 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product List - Product List_20250522_200328.png
+2025-05-22 20:03:29,444 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product List - Product List_20250522_200328.png
+2025-05-22 20:03:29,446 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+2025-05-22 20:03:29,448 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_200327\Product Remove to Cart - Product Remove to Cart_20250522_200329.png
+2025-05-22 20:03:29,470 - INFO - Word document saved at: reports/word_reports\Test_Report_20250522_200329.docx
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+6 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m6.883s

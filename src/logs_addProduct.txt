@@ -1,0 +1,49 @@
+2025-05-22 19:49:36,633 - INFO - Initializing WebDriver and test setup
+System architecture: 64bit
+Using driver from: C:\Users\lmaputi\python\ManualDriver\chromedriver.exe
+
+DevTools listening on ws://127.0.0.1:3588/devtools/browser/663ced35-8214-4edb-95f4-f2a7310b6aaa
+2025-05-22 19:49:38,824 - INFO - Initialized screenshots lists.
+Feature: Adding product to the cart # environments/test/feature/AddingProductToCart.feature:1
+2025-05-22 19:49:38,829 - INFO - Starting scenario: Successful login with valid credentials
+
+  Scenario: Successful login with valid credentials  # environments/test/feature/AddingProductToCart.feature:3
+    Given I am on the Swag Labs login page           # environments/test/steps/LoginSteps.py:20
+    When I enter valid credentials                   # environments/test/steps/LoginSteps.py:33
+2025-05-22 19:49:41,373 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 19:49:41,374 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Email Input - Username Input_20250522_194941.png
+2025-05-22 19:49:41,376 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Email Input - Username Input_20250522_194941.png
+    And I submit the login form                      # environments/test/steps/LoginSteps.py:43
+2025-05-22 19:49:51,648 - INFO - Finished scenario: Successful login with valid credentials
+test only for the screenshot
+2025-05-22 19:49:51,650 - INFO - Starting scenario: Adding product to the cart
+
+  Scenario: Adding product to the cart                         # environments/test/feature/AddingProductToCart.feature:8
+    Given I am on the Swag Labs Dashboard                      # environments/test/steps/SwagLabSteps.py:11
+    When I add a product to cart                               # environments/test/steps/SwagLabSteps.py:16
+2025-05-22 19:49:52,104 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 19:49:52,104 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product List - Product List_20250522_194952.png
+2025-05-22 19:49:52,106 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product List - Product List_20250522_194952.png
+Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-05-22 19:49:52,417 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 19:49:52,418 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+2025-05-22 19:49:52,419 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+    Then I verify if product is successfully added on the cart # environments/test/steps/SwagLabSteps.py:21
+2025-05-22 19:49:52,610 - WARNING - Could not highlight element: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not method
+2025-05-22 19:49:52,611 - INFO - Screenshot saved at: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+2025-05-22 19:49:52,613 - INFO - Screenshot captured: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+2025-05-22 19:49:52,613 - INFO - Finished scenario: Adding product to the cart
+test only for the screenshot
+
+2025-05-22 19:49:52,615 - INFO - Test suite finished
+2025-05-22 19:49:52,654 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Email Input - Username Input_20250522_194941.png
+2025-05-22 19:49:52,657 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Email Input - Username Input_20250522_194941.png
+2025-05-22 19:49:52,660 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product List - Product List_20250522_194952.png
+2025-05-22 19:49:52,663 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product List - Product List_20250522_194952.png
+2025-05-22 19:49:52,666 - INFO - Screenshot added to Word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+2025-05-22 19:49:52,668 - INFO - Screenshot added to word document: reports\screenshots\Successful_login_with_valid_credentials\test_report_20250522_194941\Product Added to Cart - Product Added to Cart_20250522_194952.png
+2025-05-22 19:49:52,727 - INFO - Word document saved at: reports/word_reports\Test_Report_20250522_194952.docx
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+6 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m13.772s
