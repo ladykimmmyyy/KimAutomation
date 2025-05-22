@@ -5,13 +5,13 @@ This repository contains an automation project focused on the Login functionalit
 Website URL: https://www.saucedemo.com
 
 Scenarios:
-Login with Valid Credentials
-Adding a Product to cart successfully
+Login with Valid Credentials,
+Adding a Product to cart successfully,
 Removing a Product to cart successfully
 
 Technology used:
-Selenium
-Cucumber BDD
-Python Language
-Python Behave
+Selenium,
+Cucumber BDD,
+Python Language,
+Python Behave,
 PyCharm
